@@ -37,7 +37,7 @@ string get_identifier(stack<string> identifiers) {
 	return line;
 }
 
-int main() {
+int problem1() {
 	int n, q, totalLines;
 	cin >> n >> q;
 	cin.ignore();
@@ -80,4 +80,5 @@ int main() {
 	}
 
 	cout << ans;
+	return 0;
 }

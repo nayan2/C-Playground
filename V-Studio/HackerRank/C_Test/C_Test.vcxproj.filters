@@ -21,6 +21,9 @@
     <ClCompile Include="Problem-1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="problem-2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

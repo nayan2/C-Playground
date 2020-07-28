@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="problem-2.cpp" />
     <ClCompile Include="Problem-1.cpp" />
   </ItemGroup>
   <ItemGroup>
