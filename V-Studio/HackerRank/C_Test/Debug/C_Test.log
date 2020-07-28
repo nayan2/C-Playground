@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\amjad\source\repos\C_Test\C_Test\main.cpp(47,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\amjad\source\repos\C_Test\C_Test\main.cpp(50,9): warning C4018: '<': signed/unsigned mismatch
+C:\Users\amjad\source\repos\C_Test\C_Test\main.cpp(55,8): warning C4305: 'argument': truncation from 'int' to 'const _Elem'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\amjad\source\repos\C_Test\C_Test\main.cpp(55,19): warning C4309: 'argument': truncation of constant value
+C:\Users\amjad\source\repos\C_Test\C_Test\main.cpp(41,12): warning C4101: 'totalLines': unreferenced local variable
+  C_Test.vcxproj -> C:\Users\amjad\source\repos\C_Test\Debug\C_Test.exe
