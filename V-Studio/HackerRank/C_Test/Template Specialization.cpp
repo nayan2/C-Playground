@@ -43,4 +43,5 @@ int TS()
         cout << Traits<Color>::name(index1) << " ";
         cout << Traits<Fruit>::name(index2) << "\n";
     }
+    return 0;
 }

@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  basic_data_input_prob.cpp
+  main.cpp
+C:\Users\amjad\source\repos\C_Test\C-Playground\V-Studio\HackerRank\C_Test\main.cpp(31,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   C_Test.vcxproj -> C:\Users\amjad\source\repos\C_Test\C-Playground\V-Studio\HackerRank\Debug\C_Test.exe
