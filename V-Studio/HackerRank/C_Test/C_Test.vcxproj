@@ -142,7 +142,11 @@
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="binary_reverse_prob.cpp" />
     <ClCompile Include="basic_data_input_prob.cpp" />
+    <ClCompile Include="input_manipultor.cpp" />
+    <ClCompile Include="class_problem.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="struct_problem.cpp" />
+    <ClCompile Include="string_problem.cpp" />
     <ClCompile Include="Template Specialization.cpp" />
     <ClCompile Include="problem-2.cpp" />
     <ClCompile Include="Problem-1.cpp" />

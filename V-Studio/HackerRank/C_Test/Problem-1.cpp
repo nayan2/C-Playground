@@ -10,6 +10,59 @@
 #include <stack>
 
 using namespace std;
+
+//typedef pair<string, string> attr;
+//
+//struct tag {
+//	int id;
+//	int parentIndex;
+//	string identifier;
+//	vector<attr> attributes;
+//};
+//
+//vector<string> split(const string& str, const string& delim)
+//{
+//	vector<string> tokens;
+//	size_t prev = 0, pos = 0;
+//	do
+//	{
+//		pos = str.find(delim, prev);
+//		if (pos == string::npos) pos = str.length();
+//		string token = str.substr(prev, pos - prev);
+//		if (!token.empty()) tokens.push_back(token);
+//		prev = pos + delim.length();
+//	} while (pos < str.length() && prev < str.length());
+//	return tokens;
+//}
+//
+//string find_attr(vector<tag> tags, vector<string>& queries, int index) {
+//	string query = queries.at(index);
+//	if (query.find('~') != string::npos) {
+//		int pos = query.find('~');
+//		string ftag = query.substr(0, pos);
+//		string attr = query.substr(pos + 1, query.length());
+//		auto ctags = find_if(tags.begin(), tags.end(), [&ftag](const tag& t) { return t.identifier == ftag; });
+//		if (ctags == tags.end())
+//			return "Not Found!";
+//		else {
+//			auto attrValue = find_if((*ctags).attributes.begin(), (*ctags).attributes.end(), [&attr](pair<string, string>& p) { return p.first == attr; });
+//			if (attrValue == (*ctags).attributes.end()) return "Not Found!";
+//			return (*attrValue).second;
+//		}
+//	}
+//	else {
+//		vector<tag> ctags;
+//		auto utag = find_if(tags.begin(), tags.end(), [&query](const tag& t) { return t.identifier == query; });
+//		auto ctag = find_if(tags.begin(), tags.end(), [utag](tag t) { return t.parentIndex == (*utag).id; });
+//		while (ctag != tags.end())
+//		{
+//			ctags.push_back(*ctag);
+//			ctag = find_if(next(ctag), tags.end(), [utag](tag t) { return t.parentIndex == (*utag).id; });
+//		}
+//		return find_attr(ctags, queries, ++index);
+//	}
+//}
+
 typedef pair<string, string> attr;
 
 string& purify(string& text) {
