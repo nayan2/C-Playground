@@ -142,9 +142,10 @@
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="binary_reverse_prob.cpp" />
     <ClCompile Include="basic_data_input_prob.cpp" />
+    <ClCompile Include="box_prob.cpp" />
     <ClCompile Include="input_manipultor.cpp" />
     <ClCompile Include="class_problem.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="extended_class_problem.cpp" />
     <ClCompile Include="struct_problem.cpp" />
     <ClCompile Include="string_problem.cpp" />
     <ClCompile Include="Template Specialization.cpp" />
@@ -154,7 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="box_prob.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

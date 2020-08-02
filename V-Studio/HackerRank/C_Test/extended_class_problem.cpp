@@ -32,7 +32,7 @@ int Student::calculateTotalScore() {
     return accumulate(this->scores, this->scores+(sizeof(this->scores)/sizeof(this->scores[0])), 0);
 }
 
-int main() {
+int x_c_p() {
     int n; // number of students
     cin >> n;
     Student* s = new Student[n]; // an array of n students
