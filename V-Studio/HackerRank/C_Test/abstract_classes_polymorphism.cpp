@@ -47,6 +47,7 @@ public:
             if (result != -1) {
                 auto target = find_if(this->mp.begin(), this->mp.end(), [&key](pair<int, Node*> p) { return p.first == key; });
                 auto initial = find_if(this->mp.begin(), this->mp.end(), [&key](pair<int, Node*> p) { return p.second->prev == NULL; });
+                target->second->value = value;
 
                 if (target->second->prev != NULL && target->second->next != NULL) {
                     target->second->prev = target->second->next;
@@ -67,10 +68,15 @@ public:
             }
             else if (result == -1 && this->mp.size() == this->cp) {
                 auto last = find_if(this->mp.begin(), this->mp.end(), [&key](pair<int, Node*> p) { return p.second->next == NULL; });
+                auto init = find_if(this->mp.begin(), this->mp.end(), [&key](pair<int, Node*> p) { return p.second->prev == NULL; });
+
                 last->second->prev->next = NULL;
                 delete last->second;
                 this->mp.erase(last);
-                auto newNode = new Node(key, value);
+
+                auto newNode = new Node(NULL, init->second, key, value);
+                init->second->prev = newNode;
+
                 this->mp.insert(make_pair(key, newNode));
             }
             else {
