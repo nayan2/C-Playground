@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="abstract_classes_polymorphism.cpp" />
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="binary_reverse_prob.cpp" />
     <ClCompile Include="basic_data_input_prob.cpp" />
     <ClCompile Include="box_prob.cpp" />
+    <ClCompile Include="custom_exception.cpp" />
+    <ClCompile Include="exceptional_server.cpp" />
     <ClCompile Include="input_manipultor.cpp" />
     <ClCompile Include="class_problem.cpp" />
     <ClCompile Include="extended_class_problem.cpp" />
@@ -152,10 +155,14 @@
     <ClCompile Include="problem-2.cpp" />
     <ClCompile Include="Problem-1.cpp" />
     <ClCompile Include="Variadic_template.cpp" />
+    <ClCompile Include="virtual_functions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="abstract_classes_polymorphism.h" />
     <ClInclude Include="Account.h" />
     <ClInclude Include="box_prob.h" />
+    <ClInclude Include="exceptional_server.h" />
+    <ClInclude Include="virtual_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
