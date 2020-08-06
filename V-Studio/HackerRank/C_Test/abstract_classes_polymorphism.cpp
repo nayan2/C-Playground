@@ -95,7 +95,7 @@ public:
     }
 };
 
-int main() {
+int a_c_p() {
     int n, capacity, i;
     string line;
     cin >> n >> capacity;

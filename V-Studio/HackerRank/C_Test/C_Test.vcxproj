@@ -155,6 +155,8 @@
     <ClCompile Include="problem-2.cpp" />
     <ClCompile Include="Problem-1.cpp" />
     <ClCompile Include="Variadic_template.cpp" />
+    <ClCompile Include="vector_erase.cpp" />
+    <ClCompile Include="vector_sort.cpp" />
     <ClCompile Include="virtual_functions.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +164,8 @@
     <ClInclude Include="Account.h" />
     <ClInclude Include="box_prob.h" />
     <ClInclude Include="exceptional_server.h" />
+    <ClInclude Include="vector_erase.h" />
+    <ClInclude Include="vector_sort.h" />
     <ClInclude Include="virtual_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
