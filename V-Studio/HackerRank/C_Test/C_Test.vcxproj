@@ -144,11 +144,15 @@
     <ClCompile Include="binary_reverse_prob.cpp" />
     <ClCompile Include="basic_data_input_prob.cpp" />
     <ClCompile Include="box_prob.cpp" />
+    <ClCompile Include="cpp_lower_bound.cpp" />
+    <ClCompile Include="cpp_maps.cpp" />
+    <ClCompile Include="cpp_sets.cpp" />
     <ClCompile Include="custom_exception.cpp" />
     <ClCompile Include="exceptional_server.cpp" />
     <ClCompile Include="input_manipultor.cpp" />
     <ClCompile Include="class_problem.cpp" />
     <ClCompile Include="extended_class_problem.cpp" />
+    <ClCompile Include="prettyprint.cpp" />
     <ClCompile Include="struct_problem.cpp" />
     <ClCompile Include="string_problem.cpp" />
     <ClCompile Include="Template Specialization.cpp" />
@@ -163,7 +167,11 @@
     <ClInclude Include="abstract_classes_polymorphism.h" />
     <ClInclude Include="Account.h" />
     <ClInclude Include="box_prob.h" />
+    <ClInclude Include="cpp_lower_bound.h" />
+    <ClInclude Include="cpp_maps.h" />
+    <ClInclude Include="cpp_sets.h" />
     <ClInclude Include="exceptional_server.h" />
+    <ClInclude Include="prettyprint.h" />
     <ClInclude Include="vector_erase.h" />
     <ClInclude Include="vector_sort.h" />
     <ClInclude Include="virtual_functions.h" />
