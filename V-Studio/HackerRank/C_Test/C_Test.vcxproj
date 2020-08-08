@@ -140,19 +140,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="abstract_classes_polymorphism.cpp" />
+    <ClCompile Include="accessing_inherited_functions.cpp" />
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="binary_reverse_prob.cpp" />
     <ClCompile Include="basic_data_input_prob.cpp" />
     <ClCompile Include="box_prob.cpp" />
+    <ClCompile Include="cpp_exception_handling.cpp" />
     <ClCompile Include="cpp_lower_bound.cpp" />
     <ClCompile Include="cpp_maps.cpp" />
     <ClCompile Include="cpp_sets.cpp" />
     <ClCompile Include="custom_exception.cpp" />
+    <ClCompile Include="c_class_templates.cpp" />
+    <ClCompile Include="deque_stl.cpp" />
     <ClCompile Include="exceptional_server.cpp" />
+    <ClCompile Include="hotel_prices.cpp" />
+    <ClCompile Include="inheritance_introduction.cpp" />
     <ClCompile Include="input_manipultor.cpp" />
     <ClCompile Include="class_problem.cpp" />
     <ClCompile Include="extended_class_problem.cpp" />
+    <ClCompile Include="messages_order.cpp" />
+    <ClCompile Include="multi_level_inheritance_cpp.cpp" />
+    <ClCompile Include="overloading_ostream_operator.cpp" />
     <ClCompile Include="prettyprint.cpp" />
+    <ClCompile Include="rectangle_area.cpp" />
     <ClCompile Include="struct_problem.cpp" />
     <ClCompile Include="string_problem.cpp" />
     <ClCompile Include="Template Specialization.cpp" />
@@ -165,13 +175,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="abstract_classes_polymorphism.h" />
+    <ClInclude Include="accessing_inherited_functions.h" />
     <ClInclude Include="Account.h" />
     <ClInclude Include="box_prob.h" />
+    <ClInclude Include="cpp_exception_handling.h" />
     <ClInclude Include="cpp_lower_bound.h" />
     <ClInclude Include="cpp_maps.h" />
     <ClInclude Include="cpp_sets.h" />
+    <ClInclude Include="c_class_templates.h" />
+    <ClInclude Include="deque_stl.h" />
     <ClInclude Include="exceptional_server.h" />
+    <ClInclude Include="hotel_prices.h" />
+    <ClInclude Include="inheritance_introduction.h" />
+    <ClInclude Include="messages_order.h" />
+    <ClInclude Include="multi_level_inheritance_cpp.h" />
+    <ClInclude Include="overloading_ostream_operator.h" />
     <ClInclude Include="prettyprint.h" />
+    <ClInclude Include="rectangle_area.h" />
     <ClInclude Include="vector_erase.h" />
     <ClInclude Include="vector_sort.h" />
     <ClInclude Include="virtual_functions.h" />

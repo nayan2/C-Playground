@@ -84,6 +84,36 @@
     <ClCompile Include="prettyprint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="deque_stl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inheritance_introduction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hotel_prices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_exception_handling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle_area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_level_inheritance_cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overloading_ostream_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="messages_order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessing_inherited_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c_class_templates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
@@ -117,6 +147,36 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="prettyprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deque_stl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritance_introduction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hotel_prices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp_exception_handling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle_area.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_level_inheritance_cpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overloading_ostream_operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="messages_order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessing_inherited_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c_class_templates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
